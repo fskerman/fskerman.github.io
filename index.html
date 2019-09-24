@@ -79,15 +79,18 @@ a.simple:hover {display:inline;width:120px;font-weight:normal;color:#0000FF;back
             <p></p> Here are the <a class="simple"  href="http://www2.math.uu.se/~fiosk856/ALEAPhases.pdf" target="_blank">lecture notes</a> and the <a class="simple"  href="http://www2.math.uu.se/~fiosk856/ALEAExercises.pdf" target="_blank">exercises</a> for course in Random Graphs, Thresholds and Phase transitions. <p>
           
 
+
+
+            
+</table>
+         <!--  
+
                     
         </td>
             <td align="top" width="35%">
                 <img src="skerman.jpg" width="200"></td></tr>
 
 
-            
-</table>
-         <!--   
         Currently, I am working with <a class="simple" href="http://www.math.ucla.edu/~bertozzi/" target="_blank">Andrea Bertozzi</a> and <a class="simple" href="http://www.math.ucla.edu/~cmarshak/" target="_blank">Charlie Marshak</a> on further developing my <a class="simple" href="#core">earlier work</a> on core-periphery detection using fast numerical techniques from image processing. We are working on other <a class="simple" href="#core1">methods</a> with <a class="simple" href="http://www.math.ucla.edu/~mihai/" target="_blank">Mihai Cucuringu</a>, <a class="simple" href="https://scholar.google.com/citations?user=GuruM50AAAAJ" target="_blank">SangHoon Lee</a> and <a class="simple" href="http://people.maths.ox.ac.uk/porterm/" target="_blank">Mason Porter</a>. I am also working with <a class="simple" href="http://www2.warwick.ac.uk/fac/sci/maths/people/staff/purcell/" target="_blank">Christopher Purcell</a> on the <a class="simple" href="#role">complexity of role-coloring</a> graphs. These are colorings reflect the roles of vertices int he graph, by giving them the same colour if they see the same color set in their neighborhoods. I am working with <a class="simple" href="http://www.math.cornell.edu/~allenk/" target="_blank">Allen Knutson</a> on a project in matroid theory, studying graph representatives of positroid strata. With <a class="simple" href="https://sites.google.com/site/stephendesalvo/" target="_blank">Stephen DeSalvo</a>, I collaborated on a <a class="simple" href="#tri">project</a> analysing random graph models with a given number of triangles, and with <a class="simple" href="https://www.stats.ox.ac.uk/research/probability_group" target="_blank">Ross Atkins</a> and <a class="simple" href="https://www.maths.ox.ac.uk/people/fiona.skerman" target="_blank">Fiona Skerman</a> I am working on a problem related to hat guessing games and graph entropy. 
             
             
@@ -121,21 +124,28 @@ My work often bridges gaps between the pure and applied sides of graph/network t
 <p> Click on arrows to expand. </p>        
 
 
-
-
-  <p><details >
-      <summary ><a class="simple" href="https://arxiv.org/abs/1808.02243">Modularity of Erdos-Renyi random graphs</a>  with <a class="simple" href="https://www.maths.ox.ac.uk/people/colin.mcdiarmid" target="_blank">Colin McDiarmid</a>;<br> <i> Submitted + conference Analysis of Algorithms (2018).</i>  [<a class="simple" href="http://drops.dagstuhl.de/opus/volltexte/2018/8924/pdf/LIPIcs-AofA-2018-31.pdf" target="_blank">AofA</a>] [<a class="simple" href="https://arxiv.org/abs/1808.02243" target="_blank">arXiv</a>] [<a class="simple" href="https://arxiv.org/pdf/1808.02243.pdf" target="_blank">pdf</a>]  </i> </summary>
-
+  <p><details>
+      <summary ><a class="simple" href="https://arxiv.org/abs/1802.05905" target="_blank"> Assigning times to minimise reachability in temporal graphs </a> with <a class="simple" href="http://www.dcs.gla.ac.uk/~kitty/" target="_blank">Kitty Meeks</a> and <a class="simple" href="https://www.ed.ac.uk/profile/jessica-enright" target="_blank">Jess Enright</a>; <br> <i> Submitted.</i> [<a class="simple" href="https://arxiv.org/abs/1802.05905">arXiv</a>] [<a class="simple" href="https://arxiv.org/pdf/1802.05905.pdf" target="_blank">pdf</a>]  </summary > 
       <a> 
       <blockquote><small><p>
-        <img border="10" alt="figure" src="ModExBpng.png" width="100" height="150"> </a>
-       <font color="grey">  <!-- Clustering algorithms for large networks typically use the modularity score to compare which partitions better represent modular structure in the data. Given a network, the modularity of a partition of the vertex set is a number in [0, 1) which measures the extent to which edge density is higher within parts than between parts; and the modularity of the network is the maximum modularity of any partition. --> Modularity introduced by Newman and Girvan <a class="simple" href="http://arxiv.org/abs/cond-mat/0308217" target="_blank">(in this paper)</a> is a popular metric in community detection.<br> 
-Two key features which we find for Erdos-Renyi random graphs are that the modularity is $1+o(1)$ with high probability (whp) for $np$ up to $1+o(1)$ (and no further); and when $np\geq 1$ and $p$ is bounded below 1, it has order $(np)^{-1/2}$ whp, in accord with a conjecture by Reichardt and Bornholdt in 2006 (and disproving another conjecture from the physics literature). </font> </a></small></blockquote>
-  </details></p>
+     <img border="10" alt="figure" src="nzcow.jpg" height="150"> </a> 
+
+             <!---was: width="100" for picture. <img border="10" alt="figure" src="treeEmbed.png" width="90" height="90"> We show that the problem belongs to FPT when parameterised by the size of a minimum vertex cover for G, and is solvable in polynomial time whenever the treewidth or max leaf number of G is bounded by some fixed constant; we also obtain an FPT algorithm, parameterised by treewidth, to compute a multiplicative approximation to the maximum modularity. <br> 
+             <td></td><td width="145">  </a> </td><td valign="top" style="padding:10px">
+
+           -->
+            
+      <font color="grey"> 
+      <!---The maximum modularity of a graph is a parameter widely used to describe the level of clustering or community structure in a network. -->
+      
+      Temporal graphs, in which edges are active at specified times, are of relevance for spreading processes on graphs. In our setting the number of active times for each edge is fixed, but we can change the relative order in which (sets of) edges are active. We investigate the problem of determining an ordering of edges that minimises the maximum number of vertices reachable from any single starting vertex. Epidemiologically, this corresponds to the worst-case number of vertices infected in a single disease outbreak. 
+      <br>
+      </font> </a></small></blockquote>
+      </details></p>
 
 
   <p><details>
-      <summary ><a class="simple" href="https://arxiv.org/abs/1709.00216" target="_blank"> The parameterised complexity of computing the maximum modularity of a graph </a> with <a class="simple" href="http://www.dcs.gla.ac.uk/~kitty/" target="_blank">Kitty Meeks</a>; <br> <i> Submitted + conference International Symposium on Parameterized & Exact Computation (2018).</i>  [<a class="simple" href="http://drops.dagstuhl.de/opus/volltexte/2019/10210/pdf/LIPIcs-IPEC-2018-9.pdf" target="_blank">IPEC</a>] [<a class="simple" href="https://arxiv.org/abs/1807.06965">arXiv</a>] [<a class="simple" href="https://arxiv.org/pdf/1807.06965.pdf" target="_blank">pdf</a>]  </summary > 
+      <summary ><a class="simple" href="https://arxiv.org/abs/1807.06965" target="_blank"> The parameterised complexity of computing the maximum modularity of a graph </a> with <a class="simple" href="http://www.dcs.gla.ac.uk/~kitty/" target="_blank">Kitty Meeks</a>; <br> <i> Submitted + conference International Symposium on Parameterized & Exact Computation (2018).</i>  [<a class="simple" href="http://drops.dagstuhl.de/opus/volltexte/2019/10210/pdf/LIPIcs-IPEC-2018-9.pdf" target="_blank">IPEC</a>] [<a class="simple" href="https://arxiv.org/abs/1807.06965">arXiv</a>] [<a class="simple" href="https://arxiv.org/pdf/1807.06965.pdf" target="_blank">pdf</a>]  </summary > 
       <a> 
       <blockquote><small><p>
      <img border="10" alt="figure" src="funtree.jpg" width="100" height="150"> </a> 
@@ -147,13 +157,13 @@ Two key features which we find for Erdos-Renyi random graphs are that the modula
             
       <font color="grey"> 
       <!---The maximum modularity of a graph is a parameter widely used to describe the level of clustering or community structure in a network. -->
-      Determining the maximum modularity of a graph is known to be NP-complete in general, even to find a multiplicative approximation, but we show it has reduced complexity with respect to some structural parameterisations of the input graph G. <br>
-
+      Determining the maximum modularity of a graph is known to be NP-complete in general, even to find a multiplicative approximation, but we show it has reduced complexity with respect to some structural parameterisations of the input graph. <br>
+      <br>
       On the other hand we prove modularity is W[1]-hard (and hence unlikely to admit an FPT algorithm) when parameterised simultaneously by pathwidth and the size of a minimum feedback vertex set.
       </font> </a></small></blockquote>
       </details></p>
 
-<p><details><summary ><a class="simple" href="https://arxiv.org/abs/1709.00216" target="_blank">Permutations in binary trees and split trees</a> with <a class="simple" href="http://www.cs.otago.ac.nz/staffpriv/malbert/" target="_blank">Michael Albert</a>, <a class="simple" href="https://katalog.uu.se/profile/?id=N5-824" target="_blank">Cecilia Holmgren</a> and <a class="simple" href="http://www2.math.uu.se/~tonjo685/" target="_blank">Tony Johansson</a>; <br><i> Submitted + conference Analysis of Algorithms (2018). </i> [<a class="simple" href="http://drops.dagstuhl.de/opus/volltexte/2018/8902/pdf/LIPIcs-AofA-2018-9.pdf" target="_blank">AofA</a>] [<a class="simple" href="https://arxiv.org/abs/1901.02328" target="_blank">arXiv</a>] [<a class="simple" href="https://arxiv.org/pdf/1901.02328.pdf" target="_blank">pdf</a>]</summary > 
+<p><details><summary ><a class="simple" href="https://arxiv.org/abs/1901.02328" target="_blank">Permutations in binary trees and split trees</a> with <a class="simple" href="http://www.cs.otago.ac.nz/staffpriv/malbert/" target="_blank">Michael Albert</a>, <a class="simple" href="https://katalog.uu.se/profile/?id=N5-824" target="_blank">Cecilia Holmgren</a> and <a class="simple" href="http://www.tonyj.se/" target="_blank">Tony Johansson</a>; <br><i> Submitted + conference Analysis of Algorithms (2018). </i> [<a class="simple" href="http://drops.dagstuhl.de/opus/volltexte/2018/8902/pdf/LIPIcs-AofA-2018-9.pdf" target="_blank">AofA</a>] [<a class="simple" href="https://arxiv.org/abs/1901.02328" target="_blank">arXiv</a>] [<a class="simple" href="https://arxiv.org/pdf/1901.02328.pdf" target="_blank">pdf</a>]</summary > 
       
     <a><blockquote><small><p>
     <img border="10" alt="figure" src="treeEmbed.png" width="90" height="90"> </a>
@@ -168,7 +178,19 @@ Two key features which we find for Erdos-Renyi random graphs are that the modula
      
 <h3>Publications and accepted manuscripts</h3>
 
-<details ><p><summary><a class="simple" href="https://arxiv.org/abs/1808.03019" target="_blank">Random tree recursions: which fixed points correspond to tangible sets of trees?</a> with <a class="simple" href="https://www.math.csi.cuny.edu/~tobiasljohnson/" target="_blank">Toby Johnson</a> and <a class="simple" href="http://sites.math.washington.edu/~mpodder3/" target="_blank">Moumanti Podder</a>;<br> <i> Random Structures and Algorithms:</i> accepted [<a class="simple" href="https://arxiv.org/abs/1808.03019" target="_blank">arXiv</a>] [<a class="simple" href="https://arxiv.org/pdf/1808.03019.pdf" target="_blank">pdf</a>]</summary> 
+
+  <p><details >
+      <summary ><a class="simple" href="https://arxiv.org/abs/1808.02243">Modularity of Erdos-Renyi random graphs</a>  with <a class="simple" href="https://www.maths.ox.ac.uk/people/colin.mcdiarmid" target="_blank">Colin McDiarmid</a>;<br> <i> Random Structures and Algorithms:</i> accepted + <i>conference Analysis of Algorithms (2018).</i>  [<a class="simple" href="http://drops.dagstuhl.de/opus/volltexte/2018/8924/pdf/LIPIcs-AofA-2018-31.pdf" target="_blank">AofA</a>] [<a class="simple" href="https://arxiv.org/abs/1808.02243" target="_blank">arXiv</a>] [<a class="simple" href="https://arxiv.org/pdf/1808.02243.pdf" target="_blank">pdf</a>]  </i> </summary>
+
+      <a> 
+      <blockquote><small><p>
+        <img border="10" alt="figure" src="ModExBpng.png" width="100" height="150"> </a>
+       <font color="grey">  <!-- Clustering algorithms for large networks typically use the modularity score to compare which partitions better represent modular structure in the data. Given a network, the modularity of a partition of the vertex set is a number in [0, 1) which measures the extent to which edge density is higher within parts than between parts; and the modularity of the network is the maximum modularity of any partition. --> Modularity introduced by Newman and Girvan <a class="simple" href="http://arxiv.org/abs/cond-mat/0308217" target="_blank">(in this paper)</a> is a popular metric in community detection.<br> 
+Two key features which we find for Erdos-Renyi random graphs are that the modularity is $1+o(1)$ with high probability (whp) for $np$ up to $1+o(1)$ (and no further); and when $np\geq 1$ and $p$ is bounded below 1, it has order $(np)^{-1/2}$ whp, in accord with a conjecture by Reichardt and Bornholdt in 2006 (and disproving another conjecture from the physics literature). </font> </a></small></blockquote>
+  </details></p>
+
+
+<p><details ><summary><a class="simple" href="https://arxiv.org/abs/1808.03019" target="_blank">Random tree recursions: which fixed points correspond to tangible sets of trees?</a> with <a class="simple" href="https://www.math.csi.cuny.edu/~tobiasljohnson/" target="_blank">Toby Johnson</a> and <a class="simple" href="http://sites.math.washington.edu/~mpodder3/" target="_blank">Moumanti Podder</a>;<br> <i> Random Structures and Algorithms:</i> accepted [<a class="simple" href="https://arxiv.org/abs/1808.03019" target="_blank">arXiv</a>] [<a class="simple" href="https://arxiv.org/pdf/1808.03019.pdf" target="_blank">pdf</a>]</summary> 
   <blockquote><small><img border="10" alt="figure" src="fpplot.png" width="130" height="100"><font color="grey">We answer the following question of Joel Spencer:<br>
   Say that a set of trees $\mathcal{B}$ follows the at-least-two rule if $t \in \mathcal{B}$
   if and only if the root of $t$ has two children $u$ and $v$ such that the subtrees rooted at $u$
@@ -177,7 +199,7 @@ Two key features which we find for Erdos-Renyi random graphs are that the modula
 </details></p>
 
 
-<p><details><summary ><a class="simple" href="https://arxiv.org/abs/1709.00216" target="_blank">$k$ cuts on paths and some trees</a> with <a class="simple" href="https://www.cs.mcgill.ca/~xcai9/" target="_blank">Xing Shi Cai</a>, <a class="simple" href="https://katalog.uu.se/profile/?id=N5-824" target="_blank">Cecilia Holmgren</a> and <a class="simple" href="http://luc.devroye.org/" target="_blank">Luc Devroye</a>;<br> <i> Electronic Journal of Probability 24 (2019) </i>[<a class="simple" href="https://projecteuclid.org/download/pdfview_1/euclid.ejp/1559700303" target="_blank">journal</a>] [<a class="simple" href="https://arxiv.org/abs/1804.03069" target="_blank">arXiv</a>] [<a class="simple" href="https://arxiv.org/pdf/1804.03069.pdf" target="_blank">pdf</a>]</summary > 
+<p><details><summary ><a class="simple" href="https://arxiv.org/abs/1804.03069" target="_blank">$k$ cuts on paths and some trees</a> with <a class="simple" href="http://www2.math.uu.se/~xinca341/" target="_blank">Xing Shi Cai</a>, <a class="simple" href="https://katalog.uu.se/profile/?id=N5-824" target="_blank">Cecilia Holmgren</a> and <a class="simple" href="http://luc.devroye.org/" target="_blank">Luc Devroye</a>;<br> <i> Electronic Journal of Probability 24 (2019) </i>[<a class="simple" href="https://projecteuclid.org/download/pdfview_1/euclid.ejp/1559700303" target="_blank">journal</a>] [<a class="simple" href="https://arxiv.org/abs/1804.03069" target="_blank">arXiv</a>] [<a class="simple" href="https://arxiv.org/pdf/1804.03069.pdf" target="_blank">pdf</a>]</summary > 
     
     <a><blockquote><small><p>
     <img border="10" alt="figure" src="scissors.png" width="90" height="90"> </a> 
@@ -187,7 +209,7 @@ Two key features which we find for Erdos-Renyi random graphs are that the modula
 </details></p>    
 
 
-<p><details><summary ><a class="simple" href="https://arxiv.org/abs/1709.00216" target="_blank">Inversions in split trees and Galton-Watson trees</a> with <a class="simple" href="https://www.cs.mcgill.ca/~xcai9/" target="_blank">Xing Shi Cai</a>, <a class="simple" href="https://katalog.uu.se/profile/?id=N5-824" target="_blank">Cecilia Holmgren</a>, <a class="simple" href="http://www2.math.uu.se/~svante/papers/index.html" target="_blank">Svante Janson</a> and <a class="simple" href="http://www2.math.uu.se/~tonjo685/" target="_blank">Tony Johansson</a>.<br> <i> Combinatorics, Probability and Computing 28:3 (2019) + conference Analysis of Algorithms (2018).</i> [<a class="simple" href="https://www.cambridge.org/core/journals/combinatorics-probability-and-computing/article/inversions-in-split-trees-and-conditional-galtonwatson-trees/49BA76E23B14724A60D6D5904D910BCA" target="_blank">journal</a>] [<a class="simple" href="http://drops.dagstuhl.de/opus/volltexte/2018/8908/pdf/LIPIcs-AofA-2018-15.pdf" target="_blank">AofA</a>] [<a class="simple" href="https://arxiv.org/abs/1709.00216" target="_blank">arXiv</a>] [<a class="simple" href="https://arxiv.org/pdf/1709.00216.pdf" target="_blank">pdf</a>] </summary > 
+<p><details><summary ><a class="simple" href="https://arxiv.org/abs/1709.00216" target="_blank">Inversions in split trees and Galton-Watson trees</a> with <a class="simple" href="http://www2.math.uu.se/~xinca341/" target="_blank">Xing Shi Cai</a>, <a class="simple" href="https://katalog.uu.se/profile/?id=N5-824" target="_blank">Cecilia Holmgren</a>, <a class="simple" href="http://www2.math.uu.se/~svante/papers/index.html" target="_blank">Svante Janson</a> and <a class="simple" href="http://www.tonyj.se/" target="_blank">Tony Johansson</a>.<br> <i> Combinatorics, Probability and Computing 28:3 (2019) + conference Analysis of Algorithms (2018).</i> [<a class="simple" href="https://www.cambridge.org/core/journals/combinatorics-probability-and-computing/article/inversions-in-split-trees-and-conditional-galtonwatson-trees/49BA76E23B14724A60D6D5904D910BCA" target="_blank">journal</a>] [<a class="simple" href="http://drops.dagstuhl.de/opus/volltexte/2018/8908/pdf/LIPIcs-AofA-2018-15.pdf" target="_blank">AofA</a>] [<a class="simple" href="https://arxiv.org/abs/1709.00216" target="_blank">arXiv</a>] [<a class="simple" href="https://arxiv.org/pdf/1709.00216.pdf" target="_blank">pdf</a>] </summary > 
 
     <a><blockquote><small><p>
     <img border="10" alt="figure" src="inverted.jpg" width="90" height="90"> </a> 
