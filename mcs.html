@@ -52,6 +52,7 @@ This webpage will be populated with material as the course progresses. The handi
                   
 <font size="6" color="orange"> &#x25A0; </font> <a class=simple href="L1_mcs.pdf" target="_blank">Automaton I & II </a>: 14th April. <br>
 <font size="6" color="orange"> &#x25A0; </font> <a class=simple href="L2_mcs.pdf" target="_blank">Networks I </a>: 15th April. <br>
+<font size="6" color="orange"> &#x25A0; </font> <a class=simple href="L3_mcs.pdf" target="_blank">Networks II </a>: 22nd April. <br>
 
 <!--       <br>
         <font size="6" color="orange"> &#x25A0; </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="notes2.pdf" target="_blank">Notes 2: Covariance and Correlation (lectures 4,5)</a>
@@ -175,6 +176,32 @@ Lab 2: Warm up: Game of Life<br>
 3. Find an extra pattern of period 2 <br>
 4. Find an extra pattern which translates each t steps for some t <br>
 <br>
+
+Examples shared during the lab included one in <a class=simple href="https://en.wikipedia.org/wiki/J_(programming_language)"> J</a> programming language shared by Anton Wallgren - an online runnable version is <a class=simple href="https://tio.run/##hZDBTsMwDIbveQofUOuoXUo64FAxhLhwQYgXABS16erBlqgNmtDQXr0k6jS2Shv5D7/l/LL8edH3zw8C6tYsoXHOdkWWlcZ@i67JFp9U64x1TluYFYD4mogIp9GMJxyT7B4Rr6KNSPE9GOd4l27S7S0VkvPoxzf4lrEwvTSrmuZfrXJkVrAm18CLbslUIJmVYfa11wVcHkkeuBz1dmK6bAzEk6MXD10rT/wGnrcCSeR8H/L@z6Y5xM6oKobJcKw1fZDVFSmwaq7Bpx/V0nsNT/5qzOYB68ZrjDWGlDuov@qEzsEOu51L7Kmnnjpnff8L" target="_blank"> here</a>. 
+
+	<!--
+	J script
+		NB. from https://copy.sh/jlife/
+		step =: ((]+.&(3&=)+)(+/@(((4&{.,(_4&{.))(>,{,~<i:1))&|.)))~
+
+		NB. configuration with Period 1 
+		p1 =: 5 5 $ 0 0 0 0 0 0 0 1 0 0 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0
+		echo '--------------'
+		echo 'tub'
+		echo '--------------'
+		step^:(i.2) p1
+		echo p1
+
+		NB. configuration with Period 2 'toad' - from wikipedia page on Game of Life
+		p2 =: 6 6 $ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+		echo '--------------'
+		echo 'toad'
+		echo '--------------'
+		echo step^:(i.3) p2
+				
+	Online running
+		https://tio.run/#
+	-->
 
 
 <br>
