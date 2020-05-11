@@ -2,6 +2,14 @@
 <html>
 
     <head>
+
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});    
+        </script>
+        <script type="text/javascript"
+            src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title> Modelling Complex Systems 2020 </title>
@@ -54,7 +62,7 @@ This webpage will be populated with material as the course progresses. The handi
 <font size="6" color="orange"> &#x25A0; </font> <a class=simple href="L2_mcs.pdf" target="_blank">Networks I </a>: 15th April. <br>
 <font size="6" color="orange"> &#x25A0; </font> <a class=simple href="L3_mcs.pdf" target="_blank">Networks II </a>: 22nd April. Notes made during lecture available <a class=simple href="L3_notes.pdf" target="_blank">here</a>.  <br>
 
-<font size="6" color="orange"> &#x25A0; </font> <a class=simple href="L4_mcs.pdf" target="_blank"> Self-propelled particles:</a> 23rd April. Matlab examples available <a class=simple href="self_prop.zip" target="_blank">here</a>.  <br>
+<font size="6" color="orange"> &#x25A0; </font> <a class=simple href="L4_mcs.pdf" target="_blank"> Self-propelled particles I:</a> 23rd April. Matlab examples available <a class=simple href="self_prop.zip" target="_blank">here</a>.  <br>
 
 <!--       <br>
         <font size="6" color="orange"> &#x25A0; </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="notes2.pdf" target="_blank">Notes 2: Covariance and Correlation (lectures 4,5)</a>
@@ -115,7 +123,25 @@ There is a <font size="6" color="orange"> </font> <a class=simple style='backgro
 <TD>
     <font size="5" color="green"> &#x25B2; </font> <a class=simple href="Lab2.pdf" target="_blank">Lab 2:</a> (updated) Automaton, on 14th April, deadline 10th May.  <br>
 	<font size="5" color="green"> &#x25B2; </font> <a class=simple href="Lab3.pdf" target="_blank">Lab 3:</a> Network epidemics, on 17th April, deadline 10th May.  <br>
-	<font size="5" color="green"> &#x25B2; </font> <a class=simple href="Lab4.pdf" target="_blank">Lab 4:</a> 24th April, deadline 10th May.  <br>
+	<font size="5" color="green"> &#x25B2; </font> <a class=simple href="Lab4.pdf" target="_blank">Lab 4:</a> Network properties, on 24th April, deadline 10th May.  <br>
+
+    <font size="5" color="green"> &#x25B2; </font> <a class=simple href="Lab5.pdf" target="_blank">Lab 5:</a> Self-propelled particles, on 11th May, deadline 24th May.  <br>
+
+
+ <br>
+
+Monday 11th May:<br> 9am-12noon Lab 5: Self-propelled particle models</a>.<br> 
+<br>
+
+
+
+Lab 5 Warm up: Vicsek model<br> 
+1. Run an implementation of the Vicsek alignment model with different parameter values. As a starting point you may use Align2D.m from <a class=simple href="self_prop.zip" target="_blank">here</a> or the python implementation <a class=simple href="https://github.com/fskerman/vicsek_model" target="_blank">here</a>.<br> 
+
+2. By varying the parameter values create two videos with qualitatively different behaviour e.g. one with particles tending to become aligned and one where this does not occur.<br> 
+
+3. Calculate the polarisation at each time step and plot how polarisation changes over time in one or more runs of the model.  <br> NB: Polarisation of particles with angles $\theta_1, \theta_2, \ldots, \theta_N$ is defined to be $\sqrt{(\sum_j {\rm sin}(\theta_j))^2 +(\sum_j {\rm cos}(\theta_j))^2}$.  <br> 
+<br>
 
 
  <br>
