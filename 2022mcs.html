@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});    
+        </script>
+        <script type="text/javascript"
+            src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title> Modelling Complex Systems 2022 </title>
+        <meta name="description" content=".">
+        <link rel="stylesheet" href="main.css">
+
+        <style>
+:target {
+    border: 2px solid #D4D4D4;
+    background-color: #e5eecc;
+}
+
+
+
+a.simple:link {display:inline;width:120px;font-weight:normal;color:#0000FF;background-color:transparent;text-align:right;padding:0px;text-decoration:none;text-transform:none;}
+a.simple:visited {display:inline;width:120px;font-weight:normal;color:#0000FF;background-color:transparent;text-align:right;padding:0px;text-decoration:underline;text-transform:none;}
+a.simple:hover {display:inline;width:120px;font-weight:normal;color:#0000FF;background-color:transparent;text-align:right;padding:0px;text-decoration:underline;text-transform:none;}
+</style>
+
+
+
+    </head>
+    <body>
+<center>
+    
+        <ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="cv.pdf">CV</a></li>
+<li><a href="material.html" style='background-color:#0099FF' onMouseOver="this.style.backgroundColor='#00CCFF'" onMouseOut="this.style.backgroundColor='#0099FF'">Teaching</a></li>
+        
+</ul></center><p><p>
+
+        
+
+
+        <p><p>
+        
+        <table border="0"><td width="45%">
+ <h1>Modelling Complex Systems 2022 </h1>    
+ 
+<TABLE width="100%"  cellspacing="20">
+
+This webpage will be populated with material as the course progresses. The handing in of assignments is via studium. <br>
+<br>
+
+
+<!---The grades for all assignments are now on studentportalen. The breakdown of how marks were awarded in the final project can be found <a class=simple href="report_scheme.pdf" target="_blank">here</a>.  <br>
+
+ <br>
+<br>
+UPDATE: The resit assignments are now uploaded and linked in brackets after the original assignments for the course. For Alejandro's part of the course the resit assignment can be found <a class=simple href="assignment2_august.pdf" target="_blank">here</a>. 
+--->
+
+
+    
+
+    <font size="5" color="green"> &#x25B2; </font> Lab 1 :  Automaton.  <br>
+    <font size="5" color="green"> &#x25B2; </font> Lab 2 :  <br>
+	<font size="5" color="green"> &#x25B2; </font> Lab 3  : <!-- <a class=simple href="Lab2.pdf" target="_blank">Lab 2</a> Network epidemics/spread. Network properties. Self-propelled particles. Genetic algorithms. Sample code in python and matlab available <a class=simple href="https://github.com/fskerman/ga_mcs" target="_blank">here</a>. The resit is the same assignment (if you submit both you need to pick different papers).--> <br>
+	<font size="5" color="green"> &#x25B2; </font> Lab 4 :   <br>
+
+    <font size="5" color="green"> &#x25B2; </font> Lab 5 :   <br>
+
+    <font size="5" color="green"> &#x25B2; </font> Lab 6 :   <br>
+
+    <font size="5" color="green"> &#x25B2; </font> <a class=simple href="Final_mcs.pdf" target="_blank">Final Project.</a> <br>
+
+
+ <br>
+
+<!--
+<TD colspan="2"> 
+
+    -->
+        
+                  
+<font size="6" color="orange"> &#x25A0; </font> <a class=simple href="L1_mcs.pdf" target="_blank">Automaton I & II </a>: 21st and 23rd March. <br>
+<font size="6" color="orange"> &#x25A0; </font> <a class=simple href="L2_mcs.pdf" target="_blank">Networks I </a>: 15th April. <br>
+<font size="6" color="orange"> &#x25A0; </font> <a class=simple href="L3_mcs.pdf" target="_blank">Networks II </a>: 22nd April. Notes made during lecture available <a class=simple href="L3_notes.pdf" target="_blank">here</a>.  <br>
+
+<font size="6" color="orange"> &#x25A0; </font> <a class=simple href="L4_mcs.pdf" target="_blank"> Self-propelled particles I:</a> 23rd April. Matlab examples available <a class=simple href="self_prop.zip" target="_blank">here</a>.  <br>
+
+<font size="6" color="orange"> &#x25A0; </font> <a class=simple href="L5_mcs.pdf" target="_blank"> Self-propelled particles II:</a> 12th May.<br>
+
+<font size="6" color="orange"> &#x25A0; </font> <a class=simple href="L6_mcs.pdf" target="_blank"> Genetic Algorithms:</a> 13th May.<br>
+
+
+
+<!--
+       
+    </TD>
+
+
+<!--
+
+Monday 18th May:<br> 1-4pm Lab 6: Genetic algorithms</a>.<br> 
+<br>
+
+
+
+Lab 6 Warm up: GA specifics and implementing painter robot <br> 
+
+1. We investigate different ways to 'generate' generation g+1 from generation g. Our setup is k individuals, with 'fitnesses' f(1), f(2), ..... '. Recall parent 1 and parent 2 give rise to child 1 and child 2, via 'cross-over' as in lecture.        
+In the mutation phase each locus on each choromosome can mutate independently with probability p.  
+Choices - how to pick parent 1 and parent 2. E.g. tournament pick $t$ chromosomes at random then take one with highest fitness, with probability proportional to fitness, using threshold function etc. Also note one can choose parents with or without replacement.<br>
+2. Check you can implement the robot! As a starting point you may use the matlab or python implementations <a class=simple href="https://github.com/fskerman/ga_mcs" target="_blank">here.</a><br>
+3. For chromosome '333......3', check average score over some runs. (For 40x20 square expect about 0.3).<br>
+
+
+
+
+
+
+Monday 11th May:<br> 9am-12noon Lab 5: Self-propelled particle models</a>.<br> 
+<br>
+
+ 
+Lab 5 Warm up: Vicsek model<br> 
+1. Run an implementation of the Vicsek alignment model with different parameter values. As a starting point you may use Align2D.m from <a class=simple href="self_prop.zip" target="_blank">here</a> or the python implementation <a class=simple href="https://github.com/fskerman/vicsek_model" target="_blank">here</a>.<br> 
+
+2. By varying the parameter values create two videos with qualitatively different behaviour e.g. one with particles tending to become aligned and one where this does not occur.<br> 
+
+3. Calculate the polarisation at each time step and plot how polarisation changes over time in one or more runs of the model.  <br> NB: Polarisation of particles with angles $\theta_1, \theta_2, \ldots, \theta_N$ is defined to be $\frac{1}{N}\sqrt{(\sum_j {\rm sin}(\theta_j))^2 +(\sum_j {\rm cos}(\theta_j))^2}$.  <br> 
+<br>
+Here are some sketched notes on the <a class=simple href="vicsek_sketch.pdf" target="_blank">Vicsek model</a> and on <a class=simple href="polarisation_sketch.pdf" target="_blank">polarisation</a>.<br>
+
+<br> Some example videos from the python implementation above with noise parameters <a class=simple href="vicsek_02.html" target="_blank">$\eta=0.2$</a> and <a class=simple href="vicsek_06.html" target="_blank">$\eta=0.6$</a> for $N = 100$ #particles, $r = 0.1$ radius, $\delta_t = 0.01$ time-step, from time $t = 0.0$ to time $T = 2.0$. <br>
+
+
+
+<br> The assignment asks for a phase diagrams as <a class=simple href="phase_diagram_example.png" target="_blank">here</a>. They are nothing but <a class=simple href="2d-histogram.jpg" target="_blank">2D histograms with the heights indicated by the shading of the squares</a>. The idea of them is to give an indication of the proportion of runs of the models which have certain ranges of alignment as $\eta$ varies. Nice example python implementation <a class=simple href="https://python-graph-gallery.com/83-basic-2d-histograms-with-matplotlib/" target="_blank">here</a>.  
+<br>
+<br>
+<br>
+
+Friday 23rd April:<br> 1-4pm Lab 4: Network analysis and statistics.<br> 
+<br>
+
+Lab 4 Warm up: Network analysis<br> 
+1. Find and load a real network  with n>200 vertices.<br> 
+
+2. Find modularity* of the network (*this will be heuristically calculated value, not the max) <br> 
+
+3. Generate ER random graph with same expected number of edges as real network<br> 
+
+4. Generate a configuration model random graph with same degree sequence as real network <br> 
+<br>
+
+Python<br> 
+Airlines example with data from <a class=simple href="http://vlado.fmf.uni-lj.si/pub/networks/data/" target="_blank"> here.</a> Links for data: <a class=simple href="airlines.txt" target="_blank"> airlines.txt </a> and python code of mine to load in network data and find a partition of the airlines graph into communties: <a class=simple href="airlines_mod.py" target="_blank"> airlines_mod.py</a>, and to sample via the configuration model a random graph with same degree sequence: <a class=simple href="airlines_config_model.py" target="_blank"> airlines_config_model.py</a>.  <br>
+
+Tutorial on plotting, including boxplots, in python: <a class=simple href="https://nbviewer.jupyter.org/gist/fonnesbeck/5850463" target="_blank"> here.</a>
+ <br>
+ <br>
+
+Matlab<br> 
+Community detection toolbox available <a class=simple href="https://www.mathworks.com/matlabcentral/fileexchange/45867-community-detection-toolbox" target="_blank"> here</a>. It includes three different algorithms for finding community partitions of networks, and also function to calculate the modularity value of a partition of a graph.
+<br> <br> 
+
+Background theory<br> 
+Nice video on statistical inference on networks <a class=simple href="https://www.youtube.com/watch?v=QT2xj9k00q0" target="_blank"> here</a> from 1:07-1:11 discusses Monte-Carlo test which is releated to 5b in the lab.
+ <br>
+
+ <br>
+
+ <br>
+
+Wednesday 22nd April:<br> 8-10am Lecture: Networks II, more on network measures, random models of networks.<br> 
+<br>
+
+
+Friday 17th April:<br> 1-3pm Lab 3: Network epidemics</a>.<br> 
+<br>
+
+Lab 3 Warm up: Friends of Friends.	<br> 
+1. Find and load a real network  with n>200 vertices.<br> 	
+2. Plot the degree distribution (x-axis degree, y-axis #vertices with that degree).	<br> 
+3. Select S, a sample of approx n/50 vertices at random. Plot the degree distribution of the vertices in S.<br> 
+4. Take the set of neighbours of vertices in S and plot their degree distribution.	<br> 
+<br> 
+
+
+Python<br> 
+Airlines example from http://vlado.fmf.uni-lj.si/pub/networks/data/  <br> 
+Links for data: <a class=simple href="airlines.txt" target="_blank"> airlines.txt </a>. Python code to load in graph: <a class=simple href="airlines_network.py" target="_blank"> airlines_network.py</a>. Python code of mine for degrees fo sample vs. degrees of neighbours of sample: over 100 runs <a class=simple href="airline_degrees.py" target="_blank"> airline_degrees.py</a>. Same code as a jupyter notebook here <a class=simple href="airlines.ipynb" target="_blank"> airlines.ipynb</a>. 
+<br>
+
+<br> 
+
+
+
+Matlab<br> 
+Karate club with matlab adapted from <a class=simple href="https://blogs.mathworks.com/loren/2015/09/30/can-we-predict-a-breakup-social-network-analysis-with-matlab/" target="_blank">here</a>. Link for data: <a class=simple href="karate.mat" target="_blank"> karate.mat </a>. Matlab code to load in graph and plot degrees : <a class=simple href="plot_degs.m" target="_blank"> plot_degs.m</a><br> 
+<br>
+Degrees of sample vs. degrees of neighbours of the sample. Email network with data from http://networkrepository.com/ia-email-univ.php example provided by Kasia Kowalczyk. Link for data: <a class=simple href="ia-email-univ.mtx" target="_blank"> ia-email-univ.mtx </a>. Matlab code to load in graph and plot degrees : <a class=simple href="degree_distribution.m" target="_blank"> degree_distribution.m</a><br> 
+
+
+
+
+
+
+<br> 
+<br> 
+<br> 
+
+
+
+
+<br> 
+
+
+
+
+
+
+
+Wednesday 15th April:<br> 3-5pm Lecture: Networks I, representing networks, network measures.<br> 
+<br>
+
+Tuesday 14th April:<br> 9-10am Lecture: Automaton I, 10-12noon: Lab 2 exercises. BREAK.<br> 
+1-2pm Lecture: Automaton II, 2-3pm Continuation of Lab/time for questions. <br>
+<br> 
+Lab 2: Warm up: Game of Life<br>
+1. Simulate Game of Life using your own or existing code.	<br>
+2. Find an extra pattern of period 1 not covered in the lecture.<br>	
+3. Find an extra pattern of period 2 <br>
+4. Find an extra pattern which translates each t steps for some t <br>
+<br>
+
+Examples shared during the lab included one in <a class=simple href="https://en.wikipedia.org/wiki/J_(programming_language)"> J</a> programming language shared by Anton Wallgren - an online runnable version is <a class=simple href="https://tio.run/##hZDBTsMwDIbveQofUOuoXUo64FAxhLhwQYgXABS16erBlqgNmtDQXr0k6jS2Shv5D7/l/LL8edH3zw8C6tYsoXHOdkWWlcZ@i67JFp9U64x1TluYFYD4mogIp9GMJxyT7B4Rr6KNSPE9GOd4l27S7S0VkvPoxzf4lrEwvTSrmuZfrXJkVrAm18CLbslUIJmVYfa11wVcHkkeuBz1dmK6bAzEk6MXD10rT/wGnrcCSeR8H/L@z6Y5xM6oKobJcKw1fZDVFSmwaq7Bpx/V0nsNT/5qzOYB68ZrjDWGlDuov@qEzsEOu51L7Kmnnjpnff8L" target="_blank"> here</a>. 
+
+
+    -->
+
+	<!--
+	J script
+		NB. from https://copy.sh/jlife/
+		step =: ((]+.&(3&=)+)(+/@(((4&{.,(_4&{.))(>,{,~<i:1))&|.)))~
+
+		NB. configuration with Period 1 
+		p1 =: 5 5 $ 0 0 0 0 0 0 0 1 0 0 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0
+		echo '--------------'
+		echo 'tub'
+		echo '--------------'
+		step^:(i.2) p1
+		echo p1
+
+		NB. configuration with Period 2 'toad' - from wikipedia page on Game of Life
+		p2 =: 6 6 $ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+		echo '--------------'
+		echo 'toad'
+		echo '--------------'
+		echo step^:(i.3) p2
+				
+	Online running
+		https://tio.run/#
+	-->
+
+
+<br>
+<br>
+<br>
+
+<h4>Course Details</h4>    
+Each lab covers a project each consisting of a series of questions.  The first part of the course with Alejandro, assignments 1 and 2, will together count for 20 points of the final grade. In the second part of the course, 5 labs based assignments each worth 10 points. After each question is a number of points associated with it. There is a final project which will be worth 30 points. The total points over all the questions is 100. <br>
+<br>
+To pass the course (grade 3) you must correctly answer questions amounting to at least 50 points. In order to get grade 4 you must get 70 points. In order to get a grade 5 you must get 75 points and at least 18 points on the final project (implementing scientific article).<br>
+<br>
+Resits. Deadline will be in summer exact date to be confirmed. There will be an 'equivalent' re-sit version of Labs 1 to 6 and of the final project. The re-sit lab assignments will each be worth 10 points and the re-sit final project 30 points. There will be a single re-sit assignment to cover the part of the course taught by Alejandro which will count for 20 points. It will be possible to do re-sits assignment by assignment, so one could choose to re-sit only some of the assignments. Anyone can choose to re-sit any subset. You will also be able to do these in groups.<br>
+<br>
+
+
+<!--
+<font size="5" color="green"> &#x25B2; </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="Exer2.pdf" target="_blank">Exercises 2</a>   <br>
+
+This is the last part of a course at Bristol University. (Links to <a class=simple href="http://www.maths.bris.ac.uk/~matfb/topics.html" target="_blank"> first </a> and <a class=simple href="https://sites.google.com/site/robkurinczuk/teaching" target="_blank"> second </a> parts). A pdf of the content of each lecture, including exercises, will be uploaded after the lecture. I'll also maintain cumulative <a class=simple href="LectCts.pdf" target="_blank"> lecture notes</a> and <a class=simple href="ExerCts.pdf" target="_blank">exercises</a>. (Last updated 17th May).<br>
+
+
+-->
+<!--
+        <font size="5" color="green"> &#x25B2; </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="hw2.pdf" target="_blank">Homework Sheet 2</a>   <br>
+        <font size="5" color="green"> &#x25B2; </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="hw3.pdf" target="_blank">Homework Sheet 3</a>  <br>
+        <font size="5" color="green"> &#x25B2; </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="hw4.pdf" target="_blank">Homework Sheet 4</a>  
+<br>
+        <font size="5" color="green"> &#x25B2; </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="hwextra1.pdf" target="_blank">Extra practice to learn python (totally optional)</a>  
+    <br>
+        <font size="5" color="green"> &#x25B2; </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="hw5.pdf" target="_blank">Homework Sheet 5 (the sage parts are optional)</a>   <br>
+        <font size="5" color="green"> &#x25B2; </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="hw6.pdf" target="_blank">Homework Sheet 6</a> 
+    <br>
+        <font size="5" color="green"> &#x25B2; </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="hw7.pdf" target="_blank">Homework Sheet 7</a> <br>
+        <font size="5" color="green"> &#x25B2; </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="hw8.pdf" target="_blank">Homework Sheet 8</a> 
+-->
+    </TD>
+
+<TD> 
+
+        
+
+    </TD>
+
+</TR>
+    
+ 
+    
+<TR>
+
+
+<TD> 
+
+
+<!--
+<font size="6" color="blue"> &#x25CF;  </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="midterm1.pdf" target="_blank">Midterm 1</a>  
+    <br>     <font size="6" color="blue"> &#x25CF;  </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="quiz1.pdf" target="_blank">Quiz 1</a> <br> 
+    <font size="6" color="blue"> &#x25CF;  </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="midterm2practiceA.pdf" target="_blank">Midterm 2 Practice A</a><br> 
+    <font size="6" color="blue"> &#x25CF;  </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="midterm2practiceB.pdf" target="_blank">Midterm 2 Practice B</a> <br> 
+        
+
+
+
+<h3>Possible Reading</h3>  These go beyond the scope of this course. <br>
+    <font size="6" color="blue"> &#x25CF;  </font> <a class=simple href="PC-lecture-notes-2014.pdf" target="_blank"> Colin McDiarmid's Probabilistic Combinatorics course notes.</a> p1-17.<br>     
+<font size="6" color="blue"> &#x25CF;  </font> <a class=simple href="https://www.math.cmu.edu/~af1p/MAA2005/L2.pdf" target="_blank"> Oleg Pikhurko's lecture on thresholds in random graphs.</a><br> 
+
+<font size="6" color="blue"> &#x25CF;  </font> <a class=simple href="http://arxiv.org/pdf/1102.5761v3.pdf" target="_blank"> Lecture notes on noise sensitivity and percolation.</a><br> 
+
+
+
+
+
+
+
+
+
+
+
+<font size="6" color="blue"> &#x25CF;  </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="final .pdf" target="_blank">170A Final</a><br> 
+    <font size="6" color="blue"> &#x25CF;  </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="final practice.pdf" target="_blank">170A Final (extra practice)</a>
+          
+-->
+  
+    
+<!--
+
+    
+    <TD>  <font size="6" color="blue"> &#x25CF;  </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="170Bmidterm1practice1sols.pdf" target="_blank">Midterm 1 Practice A Solutions</a><br>     <font size="6" color="blue"> &#x25CF;  </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="170Bmidterm1practice2sols.pdf" target="_blank">Midterm 1 Practice B Solutions</a> 
+        <br>     <font size="6" color="blue"> &#x25CF;  </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="midterm1sols.pdf" target="_blank">Midterm 1 Solutions (rough)</a> 
+         
+       <br>     <font size="6" color="blue"> &#x25CF;  </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="quiz1sols.pdf" target="_blank">Quiz 1 Solutions</a> <br> 
+      <font size="6" color="blue"> &#x25CF;  </font>  <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="midterm2practiceAsols.pdf" target="_blank">Midterm 2 Practice A Solutions </a> <br> 
+          <font size="6" color="blue"> &#x25CF;  </font>  <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="midterm2practiceBsols.pdf" target="_blank">Midterm 2 Practice B Solutions </a> <br> 
+    
+    </TD>
+
+-->
+    </TR>    
+    
+
+
+</TABLE>    
+            
+            
+<!--         Paul Chleboun (
+                        
+<b>Office hours: </b>
+  <br>
+Puck (MS 7370): Mon 16.00-17.30, Wed 9.00-10.30<br>
+Tyler (MS 2361): Thu 10-11:30
+            
+
+            <hr>
+
+ 
+
+<table style="width:100%" border="0" cellspacing="0">
+  <tr bgcolor="#424242">
+      <td><b><font color="white">&nbsp;Exam</font></b></td>
+      <td><b><font color="white">Date</font></b></td> 
+      <td><b><font color="white">Topics</font></b></td>
+  </tr>
+<tr bgcolor="#9FF781">
+    <td>Midterm 1</td>
+    <td>January 29</td> 
+    <td>1,2,3,4</td>
+  </tr>
+<tr bgcolor="#9FF781">
+    <td>Midterm 2</td>
+    <td>February 26</td> 
+    <td>5,6,7,8,9</td>
+  </tr>
+  <tr bgcolor="#F6CEF5">
+    <td>&nbsp;Final</td>
+    <td>March 13</td> 
+    <td> </td>
+  </tr>
+</table>
+            
+     <p></p>       
+
+                
+    -->     
+
+
+<!--       <br>
+        <font size="6" color="orange"> &#x25A0; </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="notes2.pdf" target="_blank">Notes 2: Covariance and Correlation (lectures 4,5)</a>
+        <br>
+
+<font size="6" color="orange"> &#x25A0; </font> 15th April. <br>
+<font size="6" color="orange"> &#x25A0; </font> 22nd April. <br>
+<font size="6" color="orange"> &#x25A0; </font> 24th April. <br>
+<font size="6" color="orange"> &#x25A0; </font> 12th May. <br>
+<font size="6" color="orange"> &#x25A0; </font> 13th May. <br>
+       
+
+        <font size="6" color="orange"> &#x25A0; </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="notes3.pdf" target="_blank">Notes 3: Conditional Expectation and Variance (lectures 6,7)</a>
+         <br>
+        <font size="6" color="orange"> &#x25A0; </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="notes4.pdf" target="_blank">Notes 4: Transforms (lectures 7,8)</a>
+        <br>
+        <font size="6" color="orange"> &#x25A0; </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="notes5.pdf" target="_blank">Notes 5: Sum of a random number of independent RVs (lecture 9)</a> <br>
+        <font size="6" color="orange"> &#x25A0; </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="notes6.pdf" target="_blank">Notes 6: Bounds (lectures 10,11)</a>
+        
+        <br>
+        
+
+    
+This is the last part of a course at Bristol University. (Links to <a class=simple href="http://www.maths.bris.ac.uk/~matfb/topics.html" target="_blank"> first </a> and <a class=simple href="https://sites.google.com/site/robkurinczuk/teaching" target="_blank"> second </a> parts). A pdf of the content of each lecture, including exercises, will be uploaded after the lecture. I'll also maintain cumulative <a class=simple href="LectCts.pdf" target="_blank"> lecture notes</a> and <a class=simple href="ExerCts.pdf" target="_blank">exercises</a>. (Last updated 17th May).<br>
+
+Office Hours(upcoming): To be announced. <br>
+
+
+Office Hours(past): 11-12pm Mon 7th March and 2-3pm Thu 17th March. Both of these will be held in the second floor seminar room 2.1 of Howard House. <br>
+
+The homework is due by Fri 18th March 5pm. All questions are fair game excluding 3,4,6a which were covered in lectures. In particular - exercises 6b, 6c are still open and are good questions to attempt. Please either place your solutions in the box in the math dept or hand in to desk at Howard House. (Or at the office hour on Thu 17th March).<br>
+
+There is a <font size="6" color="orange"> </font> <a class=simple style='background-color:#FFFF00;' href="ExamWithSols.pdf" target="_blank"> practice exam question (now includes solutions)</a> available for this part of the course.<br>
+            <p></p> 
+
+
+
+
+
+
+
+
+        <font size="6" color="orange"> &#x25A0; </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="notes7.pdf" target="_blank">Notes 7: Weak law of large numbers (lecture 12)</a> <br>
+        <font size="6" color="orange"> &#x25A0; </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="notes8.pdf" target="_blank">Notes 8: Convergence in probability (lectures 12 and 13)</a><br>
+            <font size="6" color="orange"> &#x25A0; </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="notes9-tran.pdf" target="_blank">Notes 9: Central Limit Theorem - by Prof. Tran (Mainly: pages 273-279 of the book)</a><br>
+        <font size="6" color="orange"> &#x25A0; </font> <a style='display:inline;width:120px;font-weight:normal;color:#CC0000;background-color:#FFFFFF;text-align:right;padding:0px;text-decoration:underline;text-transform:none;' href="notes10.pdf" target="_blank">Notes 10: Almost Sure Convergence (lectures 16 and 17)</a>
+-->
+
+
+<!-- Statcounter code  -->
+<script type="text/javascript">
+var sc_project=11757556; 
+var sc_invisible=1; 
+var sc_security="cdcb3d7e"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/11757556/0/cdcb3d7e/0/" alt="Web
+Analytics"></a></div></noscript>
+<!-- End of Statcounter Code -->       
+
+    </body>
+</html>
+
+
+
+
