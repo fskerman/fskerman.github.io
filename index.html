@@ -81,21 +81,24 @@ a.simple:hover {display:inline;width:120px;font-weight:normal;color:#0000FF;back
  
           
         
-          <p></p> Collaborators: <a class="simple" href="http://www.cs.otago.ac.nz/staffpriv/malbert/" target="_blank">Michael Albert</a>, 
-          <a class="simple" href="https://www.maths.ox.ac.uk/outreach/oxford-mathematics-alphabet/j-juggling" target="_blank">Ross Atkins</a>,      
-          <a class="simple" href="https://newptcai.gitlab.io/" target="_blank">Xing Shi Cai</a> (2),
-          <a class="simple" href="https://arxiv.org/search/math?searchtype=author&query=Chellig%2C+J" target="_blank">Jordan Chellig</a>, 
-          <a class="simple" href="https://www.gla.ac.uk/schools/computing/staff/jessicaenright/" target="_blank">Jess Enright</a>, 
-          <a class="simple" href="http://sigma.iimas.unam.mx/laura/" target="_blank">Laura Eslava</a>, 
-          <a class="simple" href="http://web.mat.bham.ac.uk/N.Fountoulakis/" target="_blank">Nikolaos Fountoulakis</a>, 
-          <a class="simple" href="http://www.tcs.uj.edu.pl/en_GB/grzesik" target="_blank">Andrzej Grzesik</a>, 
+        <p></p> Collaborators:
+        <a class="simple" href="https://github.com/vagdur" target="_blank">Vilhelm Agdur</a>,
+        <a class="simple" href="http://www.cs.otago.ac.nz/staffpriv/malbert/" target="_blank">Michael Albert</a>, 
+        <a class="simple" href="https://www.maths.ox.ac.uk/outreach/oxford-mathematics-alphabet/j-juggling" target="_blank">Ross Atkins</a>,      
+        <a class="simple" href="https://newptcai.gitlab.io/" target="_blank">Xing Shi Cai</a> (2),
+        <a class="simple" href="https://arxiv.org/search/math?searchtype=author&query=Chellig%2C+J" target="_blank">Jordan Chellig</a>, 
+        <a class="simple" href="https://www.gla.ac.uk/schools/computing/staff/jessicaenright/" target="_blank">Jess Enright</a>, 
+        <a class="simple" href="http://sigma.iimas.unam.mx/laura/" target="_blank">Laura Eslava</a>, 
+        <a class="simple" href="http://web.mat.bham.ac.uk/N.Fountoulakis/" target="_blank">Nikolaos Fountoulakis</a>, 
+        <a class="simple" href="http://www.tcs.uj.edu.pl/en_GB/grzesik" target="_blank">Andrzej Grzesik</a>, 
           <a class="simple" href="https://sites.google.com/view/robert-hancock/" target="_blank">Robert Hancock</a>, 
           <a class="simple" href="https://katalog.uu.se/profile/?id=N5-824" target="_blank">Cecilia Holmgren</a> (3), 
           <a class="simple" href="http://www2.math.uu.se/~svante/papers/index.html" target="_blank">Svante Janson</a>, 
           <a class="simple" href="http://www.tonyj.se/" target="_blank">Tony Johansson</a> (2), 
           <a class="simple" href="https://www.math.csi.cuny.edu/~tobiasljohnson/" target="_blank">Toby Johnson</a>, 
           <a class="simple" href="https://sites.google.com/view/adamkabela/" target="_blank">Adam Kabela</a>, 
-          <a class="simple" href="http://www.ucw.cz/~kral/index.html.en" target="_blank">Dan Kráľ</a>, 
+          <a class="simple" href="https://sites.google.com/monash.edu/nkamcev/home" target="_blank">Nina Kamčev</a>, 
+         <a class="simple" href="http://www.ucw.cz/~kral/index.html.en" target="_blank">Dan Kráľ</a>, 
           <a class="simple" href="https://baptiste.louf.fr/" target="_blank">Baptiste Louf</a>, 
           <a class="simple" href="https://www.maths.ox.ac.uk/people/colin.mcdiarmid" target="_blank">Colin McDiarmid</a> (4), 
           <a class="simple" href="http://users.cecs.anu.edu.au/~bdm/" target="_blank">Brendan McKay</a>, 
@@ -115,6 +118,8 @@ a.simple:hover {display:inline;width:120px;font-weight:normal;color:#0000FF;back
           <a class="simple" href="http://honza.ucw.cz/" target="_blank">Jan Volec</a>,
           <a class="simple" href="https://www.alex-wein.com/" target="_blank">Alex Wein</a> and
           <a class="simple" href="https://danayang.github.io/" target="_blank">Dana Yang</a>.
+
+
 
           <p>
           
@@ -186,6 +191,30 @@ a.simple:hover {display:inline;width:120px;font-weight:normal;color:#0000FF;back
        
 <h3>Preprints</h3>
 <p> Click on arrows to expand. </p>  
+
+<p><details >
+      <summary ><a class="simple" href="https://arxiv.org/abs/2307.07271" target="_blank">Universal lower bound for community structure of sparse graphs</a>  with <a class="simple" href="https://github.com/vagdur" target="_blank">Vilhelm Agdur</a> and <a class="simple" href="https://sites.google.com/monash.edu/nkamcev/home" target="_blank">Nina Kamčev</a>;<br> <i> Preprint. </i> 
+        [<a class="simple" href="https://arxiv.org/abs/2307.07271" target="_blank">arXiv</a>] </i> </summary>
+
+      <a> 
+      <blockquote><small><p>
+        <img border="10" alt="figure" src="ModExBpng.png" width="100" height="150"> </a>
+        <font color="grey">  <!-- Clustering algorithms for large networks typically use the modularity score to compare which partitions better represent modular structure in the data. Given a network, the modularity of a partition of the vertex set is a number in [0, 1) which measures the extent to which edge density is higher within parts than between parts; and the modularity of the network is the maximum modularity of any partition.
+
+        Suppose that there is an unknown underlying graph $G$ on a large vertex set, and we can test only a proportion of the possible edges to check whether they are present in $G$. If $G$ has high modularity, is the observed graph $G'$ likely to have high modularity? We see that this is indeed the case under a mild condition, in a natural model where we test edges at random. We find that $q^*(G') \geq q^*(G)-\varepsilon$ with probability at least $1-\varepsilon$, as long as the expected number edges in $G'$ is large enough. Similarly, $q^*(G') \leq q^*(G)+\varepsilon$ with probability at least $1-\varepsilon$, under the stronger condition that the expected average degree in $G'$ is large enough. Further, under this stronger condition, finding a good partition for $G'$ helps us to find a good partition for $G$.
+        
+         --> 
+        Modularity introduced by Newman and Girvan (<a class="simple" href="http://arxiv.org/abs/cond-mat/0308217" target="_blank">link</a>) is a popular metric in community detection.<br>  <br>  
+
+        We prove new lower bounds on the modularity of graphs. Specifically, the modularity of a graph $G$ with average degree $\bar d$ is $Ω(\bar{d}^{-1/2})$, under some mild assumptions on the degree sequence of $G$. The lower bound $Ω(\bar{d}^{-1/2})$ applies, for instance, to graphs with a power-law degree sequence or a near-regular degree sequence.<br>  <br>  
+
+        It has been suggested that the relatively high modularity of the Erdős-Rényi random graph $G_{n,p}$ stems from the random fluctuations in its edge distribution, however our results imply high modularity for any graph with a degree sequence matching that typically found in $G_{n,p}$. <br>  <br>  
+
+
+        The proof of the new lower bound relies on certain weight-balanced bisections with few cross-edges, which build on ideas of Alon (see <a class="simple" href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D7E8BD80EC7D9FDB09BB239479D5A9B1/S096354839700299Xa.pdf/div-class-title-on-the-edge-expansion-of-graphs-div.pdf" target="_blank"> this paper</a>) and may be of independent interest."
+        </font> </a></small></blockquote>
+  </details></p>
+
 
 
 <p><details >
