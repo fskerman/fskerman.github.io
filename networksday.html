@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Networks day</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: #1b1c1d;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body class="min-h-screen py-12 px-4 sm:px-6 lg:px-8 flex flex-col items-center">
+
+    <div class="max-w-3xl w-full space-y-8">
+        
+        <!-- Header Section -->
+        <div class="space-y-1">
+            <h1 class="text-3xl font-normal text-rose-900 tracking-tight">Networks Day</h1>
+            <p class="text-sm text-slate-600">
+            December, Department of Mathematics, Uppsala University</p>
+        </div>
+
+        <hr class="border-t border-slate-200">
+
+        <div class="text-sm sm:text-base leading-relaxed text-slate-800">
+            <p>
+                A one-day event to gather those working on networks
+                in the Stockholm and Uppsala region; and perhaps beyond.  those working in pure graph theory perspective and with network data; and everything in between. <br><br>
+
+                We will feature talks from researchers at UU, KTH and SU.<br><br>
+
+                The event will be from 10-16.00 in Ångström Laboratory, Uppsala.
+                <br>
+                <br>
+                <!--Organiser: <a href="https://fskerman.github.io/" class="text-rose-700 hover:underline">Fiona Skerman</a>. Please contact me to be added to a mailing list. -->
+        </div>
+
+        <hr class="border-t border-slate-200">
+
+
+
+
+            <!--  -->
+            <div>
+                <div class="border-b border-slate-300 pb-4 flex items-center justify-between cursor-pointer hover:text-rose-900 transition-colors">
+                    <span class="text-xl font-semibold text-rose-900">Preliminary Schedule</span>
+                    <svg class="w-5 h-5 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 30"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 8-8-8"></path></svg>
+                </div>
+                <!--  -->
+                <div class="mt-4 pl-2 space-y-2 text-sm sm:text-base text-slate-800">
+                <div class="grid grid-cols-[110px_160px_1fr] gap-4"><span>9.30-10.00</span><span>Coffee</span><span></span></div>
+                <div class="grid grid-cols-[110px_160px_1fr] gap-4"><span>10.00-10.30</span><span>Talk</span><span></span></div>
+                <div class="grid grid-cols-[110px_160px_1fr] gap-4"><span>10.30-11.00</span><span>Talk</span><span></span></div>
+                <div class="grid grid-cols-[110px_160px_1fr] gap-4"><span>11.00-11.20</span><span>Break</span><span></span></div>
+                <div class="grid grid-cols-[110px_160px_1fr] gap-4"><span>11.20-12.00</span><span>Lightning talks</span><span></span></div>
+                <div class="grid grid-cols-[110px_160px_1fr] gap-4"><span>12.00-13.30</span><span>Lunch break</span><span></span></div>
+                <div class="grid grid-cols-[110px_160px_1fr] gap-4"><span>13.30-14.00</span><span>Talk</span><span></span></div>
+                <div class="grid grid-cols-[110px_160px_1fr] gap-4"><span>14.00-14.30</span><span>Talk</span><span></span></div>
+                <div class="grid grid-cols-[110px_160px_1fr] gap-4"><span>14.30-15.00</span><span>Break</span><span></span></div>
+                <div class="grid grid-cols-[110px_160px_1fr] gap-4"><span>15.00-15.30</span><span>Talk</span><span></span></div>
+                <div class="grid grid-cols-[110px_160px_1fr] gap-4"><span>15.30-16.00</span><span>Talk</span><span></span></div>
+            </div>
+        </hr>
+</div>
+
+
+
+    <h2 class="text-xl font-semibold text-rose-900">Speaker abstracts.</h2>
+
+
+<div class="border-b border-slate-100 pb-6 space-y-2">
+                    <div class="grid grid-cols-[110px_140px_1fr] gap-4 font-medium text-slate-900">
+                        <span>10:00 - 10:30</span>
+                        <span>Room Å101127 -- <a href="https://link.mazemap.com/9PvHP33g" class="text-rose-700 hover:underline"> map</a>.</span>
+                    </div>
+                    <div>
+                        <p class="font-semibold text-slate-900">
+                        </p>
+                        <a class="font-semibold text-slate-600">Speaker:</a> <a href="https://kathlenkohn.github.io/" class="text-rose-700 hover:underline">Soon</a> 
+                        <p class="font-semibold text-slate-600">
+                            Abstract: </p>
+
+                            <!---
+
+
+                            The space of functions parametrized by a fixed neural network architecture is known as its "neuromanifold", a term coined by Amari. Training the network means to solve an optimization problem over the neuromanifold. Thus, a complete understanding of its intricate geometry would shed light on the mysteries of deep learning. <br><br>
+
+                            This talk explores the approach to approximate neural networks by algebraic ones that have semialgebraic neuromanifolds. Such approximation is possible for any continuous network on a compact data domain. By the universal approximation theorem, algebraic neural networks are essentially the only ones whose neuromanifolds span finite-dimensional ambient spaces. In this setting, we can interpret training the network as finding a "closest" point on the neuromanifold to some data point in the ambient space. This perspective enables us to understand the loss landscape better, which is the graph of the loss function over the neuromanifold. In particular, the singularities (and boundary points) of the neuromanifold can cause a tradeoff between efficient optimization and good generalization: On the one hand, singularities can yield numerical instability and slow the learning process (which was already observed by Amari). On the other hand, we will observe how the same singularities cause implicit bias to stable and sparse solutions.<br><br> 
+
+                            Computing the singularities is often a technical endeavor, and requires us to determine both the hidden parameter symmetries of the network and the critical points of the network's parametrization map. This talk looks at 3 popular architectures: multilayer perceptrons, convolutional networks, and self-attention networks, and will provide many exercises!-->
+                        </p>
+                    </div>
+                </div>
+
